@@ -5,10 +5,12 @@ mediante el constructor, lo exportamos por que si no index no sabe que es Paddle
 
 export default class Paddle {
   constructor(game) {
+    
+    
     this.gameWidth = game.gameWidth;
 
-    this.width = 150;
-    this.height = 30;
+    this.width = 120;
+    this.height = 25;
 
     this.maxSpeed = 7;
     this.speed = 0;
@@ -32,7 +34,7 @@ export default class Paddle {
 
   //Aqui tenemos una funcion de dibujo.
   draw(context) {
-    context.fillStyle = "#0ff";
+    context.fillStyle = "#fccd32";
     context.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
   //Funcion de update
