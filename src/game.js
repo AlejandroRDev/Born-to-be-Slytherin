@@ -93,9 +93,9 @@ if (this.gamestate === gameState.GameOver) {
   }
 
   drawLives(context, gameWidth ) {
-    context.font = "16px Arial";
-    context.fillStyle = "#0095DD";
-    context.fillText("Lives: " + this.lives, this.gameWidth-65, 20);
+    context.font = "24px Arial";
+    context.fillStyle = "#fccd32";
+    context.fillText("Lives: " + this.lives, this.gameWidth-65, 35);
   }
   pause() {
     if (this.gamestate == gameState.Paused) {

@@ -42,9 +42,7 @@ body {
   line-height: 1.5;
 }
 #gameScreen {
-  border: 1px solid #030c04;
-  width:600px;
-   height:500px;
+  border: 2px solid #030c04;
    background-color: #0b3d20;
 }
 
