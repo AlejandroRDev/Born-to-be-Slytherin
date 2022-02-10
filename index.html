@@ -1,36 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.cdnfonts.com/css/bluu-next" rel="stylesheet">  
-      <link rel="stylesheet" href="style.css">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/bluu-next" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>Arkanoid</title>
     <script type="module" src="src/index.js" defer></script>
-
-    
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-container">
-        <h1 class="header-title">BORN TO BE SLYTHERIN</h1>
+      <h1 class="header-title">BORN TO BE SLYTHERIN</h1>
+      <div class="header-img-container">
+      <img class="header-img" src="./assets/images/snake_ slytherin.png" alt="snake slytherin"/>
+    </div>
     </header>
     <main>
-        <div class="text-container">
-            <p class="intro">Empezamos nuevo año en nuestra amada escuela de magia Hogwarts y el Sombrero te ha seleccionado para formar parte de de la casa Slytherin(como era de esperar).</p>
-            <p class="intro">Todo el mundo se lo esta pasando genial en la fiesta de inauguración... pero claro, llega Harry... queriendo ser la estrella de la fiesta. Se ve que Harry se tomó una gragéa de Alihotsy, ¡a saber de donde la ha conseguido!. En la sala principal ha empezado a gritar que el era el mejor mago de esta p@!*? escuela, le ha roto la varita a Draco y ha hecho muchas copias de el para ver si puede ligarse a una chica.</p>
-            <p class="intro">¡Y aquí entras tú!. Como Harry se esta poniendo tan pesado, te pido ayuda. Agarra una piedra e intenta tirarlo de la escoba.</p>
+      <div class="text-container">
+        <p class="intro_first">
+          Empezamos nuevo año en nuestra amada escuela de magia Hogwarts y el
+          Sombrero te ha seleccionado para formar parte de de la casa
+          Slytherin(como era de esperar).
+        </p>
+        <p class="intro">
+          Todo el mundo se lo esta pasando genial en la fiesta de inauguración,
+          pero claro, llega Harry... queriendo ser la estrella de la fiesta,
+          ¡Qué novedad!. Se ve que Harry se tomó una gragéa de Alihotsy... ¡a
+          saber de donde la ha conseguido!.
+        </p>
+        <p class="intro">
+          En la sala principal ha empezado a gritar que el era el mejor mago de
+          esta p@!*? escuela, le ha roto la varita a Draco y ha hecho muchas
+          copias de él mismo para ver si puede ligarse a una chica.
+        </p>
+        <p class="intro">
+          ¡Y aquí entras tú!. Como Harry se esta poniendo tan pesado, te pido
+          ayuda. Agarra una piedra e intenta tirarlo de la escoba.
+        </p>
+        <div class="control-container">
+          <figure>
+            <img
+              class="control-img"
+              src="/assets/images/Arrow_keys-LEFT_RIGHT.png"
+              alt="Spacebar"
+            />
+            <figcaption>Movimiento del Paddle.</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="control-imgP"
+              src="/assets/images/P-icon.png"
+              alt="Spacebar"
+            />
+            <figcaption>Pausar el juego.</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="control-imgS"
+              src="/assets/images/spacebar.png"
+              alt="Spacebar"
+            />
+            <figcaption>Iniciar el juego.</figcaption>
+          </figure>
         </div>
+      </div>
 
-    <img id="img_stone" src="assets/images/stone.png" alt="stone"/>
-    <img id="img_harry" src="assets/images/harry.png" alt="harry potter"/>
-<div class="gameScreen-container">
-    <canvas id="gameScreen" width="800" height="600"></canvas>
-</div>
-</main>
-<footer>
-
-</footer>
-</body>
+      <img id="img_stone" src="assets/images/stone.png" alt="stone" />
+      <img id="img_harry" src="assets/images/harry.png" alt="harry potter" />
+      <div class="gameScreen-container">
+        <canvas id="gameScreen" width="800" height="600"></canvas>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
