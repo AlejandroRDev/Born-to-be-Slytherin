@@ -60,6 +60,7 @@ export default class Game {
     if (this.harrys.length === 0) {
       console.log("new level");
       this.currentLevel++;
+      alert("YOU WIN, CONGRATULATIONS!")
       this.gamestate = gameState.NewLevel;
       this.start();
     }
